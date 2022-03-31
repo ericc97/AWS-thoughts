@@ -3,7 +3,7 @@ const AWS = require('aws-sdk');
 // import uuid
 const { v4: uuidv4 } = require('uuid');
 // Set region
-AWS.config.update({ region: 'us-east-1 '});
+AWS.config.update({ region: 'us-east-2'});
 // Create S3 service object 
 const s3 = new AWS.S3({ apiVersion: '2006-03-01' });
 // Create parameters for calling createBucket
